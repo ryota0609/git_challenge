@@ -2,3 +2,4 @@
 2.hello_world.txtの2行目を変更　＝　「こんにちは、世界！」を「「こんばんは、世界！」に変更・保存　➔　git add hello_world.txt　➔　git commit -m "2行目をこんばんはに変更"
 3.プルリクエスト作成　＝　git checkout main　➔　git pull　➔　git checkout -b pull_request
 4.GitHub上のリモートリポジトリにプッシュ　➔　git push origin pull_request
+5.プルリクエスト用のブランチを削除・mainブランチに切り替え　＝　git checkout main　➔　git branch -D pull_request　➔　git pull
